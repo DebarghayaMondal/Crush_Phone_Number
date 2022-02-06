@@ -37,6 +37,6 @@ public class Number {
                 }
             }
         }
-        System.out.print(Arrays.toString(an));
+        System.out.print("The phone number may be : "+Arrays.toString(an));
     }
 }
