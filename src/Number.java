@@ -6,7 +6,7 @@ public class Number {
     {
         InputStreamReader br =  new InputStreamReader(System.in);
         BufferedReader in =  new BufferedReader(br);
-        int i,j,x=10,s=0,c;
+        int i,j,s=0,c;
         int [] ak = new int[9];
         int [] an = new int[10];
         System.out.print("Enter no. of known digits = ");
@@ -27,7 +27,7 @@ public class Number {
         for(i=k;i<10;i++)
         {
             c= (int)Math.floor(Math.random() * 10);
-            for (j=(x-1);j>=0;j--)
+            for (j=9;j>=0;j--)
             {
                 if (c+j<=n)
                 {
